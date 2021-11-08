@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  background-color: #ebecf1;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: #616161;
+  text-decoration: underline;
+}
+.bor {
+  border: 1px solid black;
+}
+.img {
+  width: 200px;
+  border-radius: 20px;
+}
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.search {
+  padding: 10px;
+  border-radius: 10px;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+}
+p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+.header {
+  width: 200vh;
+  margin-top: 20px;
+  text-align: center;
+}
+.thetable {
+  margin: 20px 0px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 80%;
+  font-size: 20px;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+button {
+  font-size: 20px;
+  margin: 20px 10px;
+}
+.color {
+  color: red;
+  transform: translate(10px);
+  font-weight: 700;
+  transition: 0.5s;
+}
+.interests {
+  width: 70%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+  transition: 0.3s;
+}
+.links {
+  margin: 20px 0px;
+}
+ul {
+  transition: 0.3s;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 10px 20px;
+}
+input {
+  height: max-content;
+  font-size: 20px;
+}
+.added {
+  display: none;
+  margin: 10px 0px;
+}
+.added2 {
+  display: none;
+}
+.added3 {
+  display: none;
+}
+.added4 {
+  display: none;
+}
+.thetable {
+  border-top: 5px solid #212121;
+  border-bottom: 5px solid #212121;
+}
+tr:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+tr {
+  transition: 0.3s;
+  border-radius: 20px;
+}
+button {
+  background-color: gray;
+  color: whitesmoke;
+  transition: all 0.3s;
+  padding: 10px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+}
+
+ul:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.links {
+  transition: 0.3s;
+  margin: 20px 10px;
+}
+.links:hover {
+  transition: 0.3s;
+  color: gray;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
